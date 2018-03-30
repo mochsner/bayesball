@@ -16,4 +16,6 @@ Plan: take the following variables into account for a given attempt
     (f) Inning
 
 
-
+REFERENCES:
+https://github.com/wellsoliver/py-retrosheet/tree/master/scripts
+--> 
