@@ -1,0 +1,31 @@
+RK,PARK NAME,RUNS,HR,H,2B,3B,BB,CODE
+26,"Angel Stadium of Anaheimæ(Anaheim, California)",0.861,0.921,0.939,0.863,0.739,1.025,ANA01
+27,"AT&T Parkæ(San Francisco, California)",0.845,0.599,0.917,0.841,1.647,0.987,SF03
+12,"Busch Stadiumæ(St. Louis, Missouri)",0.931,0.857,1.055,1.008,1.031,0.924,STL10
+5,"Chase Fieldæ(Phoenix, Arizona)",1.062,0.856,1.047,1.207,1.786,1.025,PHO01
+22,"Citi Fieldæ(New York, New York)",0.87,0.994,0.912,0.934,0.905,0.998,NYC20
+20,"Citizens Bank Parkæ(Philadelphia, Pennsylvania)",1.038,1.14,0.977,0.946,0.667,1.049,PHI13
+15,"Comerica Parkæ(Detroit, Michigan)",0.902,0.791,0.966,0.977,1.353,0.988,DET05
+3,"Coors Fieldæ(Denver, Colorado)",1.436,1.21,1.301,1.235,2,1.057,DEN02
+9,"Dodger Stadiumæ(Los Angeles, California)",0.918,1,0.948,1.059,0.643,0.791,LOS03
+2,"Fenway Parkæ(Boston, Massachusetts)",1.191,0.971,1.103,1.281,1.031,0.92,BOS07
+6,"Globe Life Park in Arlingtonæ(Arlington, Texas)",1.141,1.066,1.107,1.102,0.946,1.133,ARL02
+11,"Great American Ball Parkæ(Cincinnati, Ohio)",1.115,1.137,1.075,1.043,0.444,1.101,CIN09
+25,"Guaranteed Rate Fieldæ(Chicago, Illinois)",0.904,1.113,0.953,0.873,0.833,1.234,CHI12
+4,"Kauffman Stadiumæ(Kansas City, Missouri)",1.019,0.793,0.995,1.221,1.455,0.892,KAN06
+21,"Marlins Parkæ(Miami, Florida)",0.95,0.74,0.99,0.94,1.226,1.078,MIA02
+8,"Miller Parkæ(Milwaukee, Wisconsin)",1.103,1.432,1.01,1.07,1.161,1.006,MIL06
+18,"Minute Maid Parkæ(Houston, Texas)",0.927,1.1,0.954,0.963,1.52,0.951,HOU03
+10,"Nationals Parkæ(Washington, D.C.)",1,1.025,0.992,1.049,0.5,1.043,WAS11
+17,"Oakland Coliseumæ(Oakland, California)",0.944,0.777,0.964,0.967,1.185,0.906,OAK01
+14,"Oriole Park at Camden Yardsæ(Baltimore, Maryland)",1.228,1.415,1.121,0.978,0.775,0.936,BAL12
+19,"Petco Parkæ(San Diego, California)",0.931,1.085,0.966,0.956,0.792,0.992,SAN02
+24,"PNC Parkæ(Pittsburgh, Pennsylvania)",0.933,1.083,0.962,0.874,0.821,1,PIT08
+1,"Progressive Fieldæ(Cleveland, Ohio)",1.261,0.986,1.169,1.44,0.774,1.115,CLE08
+7,"Rogers Centreæ(Toronto, Ontario)",0.906,1.005,0.926,1.076,0.958,0.998,TOR02
+29,"Safeco Fieldæ(Seattle, Washington)",0.878,0.905,0.917,0.829,0.8,0.954,SEA03
+13,"Target Fieldæ(Minneapolis, Minnesota)",0.994,1.058,1.039,0.979,0.816,0.954,MIN04
+28,"Tropicana Fieldæ(St. Petersburg, Florida)",0.94,0.962,0.939,0.832,0.704,0.895,STP01
+16,"Turner Fieldæ(Cumberland, Georgia)",0.937,0.72,0.915,0.971,0.759,1.114,ATL02
+30,"Wrigley Fieldæ(Chicago, Illinois)",0.95,1.276,0.934,0.794,1.094,1.029,CHI11
+23,"Yankee Stadiumæ(New York, New York)",1.022,1.251,0.975,0.887,0.63,1,NYC21
