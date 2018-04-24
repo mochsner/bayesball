@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<decision id="Away_Pitching_Stats">
+			<state id="Choice0" />
+			<state id="Choice1" />
+		</decision>
+		<decision id="Park_Statistics">
+			<state id="Choice0" />
+			<state id="Choice1" />
+		</decision>
+		<decision id="Away_Batting_Stats">
+			<state id="Choice0" />
+			<state id="Choice1" />
+		</decision>
+		<decision id="Home_Pitcher_Stats">
+			<state id="State0" />
+			<state id="State1" />
+		</decision>
+		<deterministic id="Away_Team_Hits">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Park_Statistics Away_Batting_Stats Home_Pitcher_Stats</parents>
+			<resultingstates>State0 State0 State0 State0 State0 State0 State0 State0</resultingstates>
+		</deterministic>
+		<decision id="Home_Batting_Stats">
+			<state id="Choice0" />
+			<state id="Choice1" />
+		</decision>
+		<deterministic id="Home_Team_Hits">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Away_Pitching_Stats Home_Batting_Stats Park_Statistics</parents>
+			<resultingstates>State0 State0 State0 State0 State0 State0 State0 State0</resultingstates>
+		</deterministic>
+		<cpt id="Away_Team_Runs">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Away_Team_Hits</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Home_Team_Runs">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Home_Team_Hits</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<deterministic id="Winner">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Away_Team_Runs Home_Team_Runs</parents>
+			<resultingstates>State0 State0 State0 State0</resultingstates>
+		</deterministic>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.2.2601.0 ACADEMIC" name="Game Logs Original Data" faultnameformat="nodestate">
+			<node id="Away_Pitching_Stats">
+				<name>Away Pitching Stats</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>480 260 598 292</position>
+			</node>
+			<node id="Home_Batting_Stats">
+				<name>Home Batting Stats</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>640 160 751 192</position>
+			</node>
+			<node id="Park_Statistics">
+				<name>Park Statistics</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>780 260 868 292</position>
+			</node>
+			<node id="Away_Batting_Stats">
+				<name>Away Batting Stats</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>900 160 1014 192</position>
+			</node>
+			<node id="Home_Pitcher_Stats">
+				<name>Home Pitcher Stats</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1040 260 1151 292</position>
+			</node>
+			<node id="Home_Team_Hits">
+				<name>Home Team Hits</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>640 240 738 303</position>
+			</node>
+			<node id="Away_Team_Hits">
+				<name>Away Team Hits</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>900 240 998 303</position>
+			</node>
+			<node id="Winner">
+				<name>Winner</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>800 460 858 498</position>
+			</node>
+			<node id="Home_Team_Runs">
+				<name>Home Team Runs</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>640 360 735 419</position>
+			</node>
+			<node id="Away_Team_Runs">
+				<name>Away Team Runs</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>900 360 997 420</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
