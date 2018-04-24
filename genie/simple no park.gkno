@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<knowledge version="1.0">
+	<tier index="0" width="320" />
+	<tier index="1" width="160" />
+	<tier index="2" width="348" />
+	<tier index="3" width="160" />
+	<tier index="4" width="160" />
+	<variable id="Colmun 1" position="10 20 82 56" />
+	<variable id="Colmun 4" tier="1" position="15 34 87 70" />
+	<variable id="Colmun 5" position="182 19 254 55" />
+	<variable id="Colmun 6" position="10 61 82 97" />
+	<variable id="Colmun 7" tier="1" position="16 239 88 275" />
+	<variable id="Colmun 8" position="93 16 165 52" />
+	<variable id="Colmun 9" position="10 102 82 138" />
+	<variable id="Colmun 10" tier="3" position="49 64 121 100" />
+	<variable id="Colmun 11" tier="3" position="50 121 122 157" />
+	<variable id="Colmun 12" position="10 143 82 179" />
+	<variable id="Colmun 17" position="6 189 78 225" />
+	<variable id="Colmun 22" tier="2" position="57 29 129 65" />
+	<variable id="Colmun 23" tier="2" position="144 27 216 63" />
+	<variable id="Colmun 24" tier="2" position="226 27 298 63" />
+	<variable id="Colmun 25" tier="2" position="66 74 138 110" />
+	<variable id="Colmun 26" tier="2" position="149 73 221 109" />
+	<variable id="Colmun 27" tier="2" position="227 72 299 108" />
+	<variable id="Colmun 44" tier="2" position="70 117 142 153" />
+	<variable id="Colmun 45" tier="2" position="151 120 223 156" />
+	<variable id="Colmun 46" tier="2" position="226 115 298 151" />
+	<variable id="Colmun 47" tier="2" position="71 163 143 199" />
+	<variable id="Colmun 48" tier="2" position="145 161 217 197" />
+	<variable id="Colmun 49" tier="2" position="226 158 298 194" />
+	<variable id="Colmun 50" tier="2" position="40 265 112 301" />
+	<variable id="Colmun 51" tier="2" position="126 262 198 298" />
+	<variable id="Colmun 52" tier="2" position="202 263 274 299" />
+	<variable id="Colmun 53" tier="2" position="46 304 118 340" />
+	<variable id="Colmun 54" tier="2" position="128 303 200 339" />
+	<variable id="Colmun 55" tier="2" position="205 306 277 342" />
+	<variable id="Colmun 72" tier="2" position="49 342 121 378" />
+	<variable id="Colmun 73" tier="2" position="131 346 203 382" />
+	<variable id="Colmun 74" tier="2" position="205 342 277 378" />
+	<variable id="Colmun 75" tier="2" position="48 387 120 423" />
+	<variable id="Colmun 76" tier="2" position="131 386 203 422" />
+	<variable id="Colmun 77" tier="2" position="208 384 280 420" />
+</knowledge>
