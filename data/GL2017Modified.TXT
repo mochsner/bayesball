@@ -1,4 +1,4 @@
-Colmun 1	Colmun 4	Colmun 5	Colmun 6	Colmun 7	Colmun 8	Colmun 9	Colmun 10	Colmun 11	Colmun 12	Colmun 17	Colmun 22	Colmun 23	Colmun 24	Colmun 25	Colmun 26	Colmun 27	Colmun 44	Colmun 45	Colmun 46	Colmun 47	Colmun 48	Colmun 49	Colmun 50	Colmun 51	Colmun 52	Colmun 53	Colmun 54	Colmun 55	Colmun 72	Colmun 73	Colmun 74	Colmun 75	Colmun 76	Colmun 77
+Date	Visiting Team	Visiting League	Visiting Team Game	Home Team	Home League	Home Team Game	Visiting Score	Home Score	Length in Outs	Park Code	Visit Bats	Visit Hits	Visit Doubles	Visit Triples	Visit Homeruns	Visit RBI	Visit Putouts	Visit Assist	Visit Errors	Visit Passed Balls	Visit Double Plays	Visit Tripple Plays	Home bats	Home Hits	Home Doubles	Home Triples	Home Homeruns	Home RBI	Home Putouts	Home Assist	Home Errors	Home Passed Balls	Home Double Plays	Home Triple Plays
 20170402	SFN	NL	1	ARI	NL	1	5	6	53	PHO01	34	11	2	1	2	5	26	9	0	0	1	0	38	13	1	1	1	6	27	8	0	0	0	0
 20170402	CHN	NL	1	SLN	NL	1	3	4	53	STL10	34	8	1	0	1	3	26	8	0	0	1	0	35	11	2	0	1	4	27	5	0	0	1	0
 20170402	NYA	AL	1	TBA	AL	1	3	7	51	STP01	36	9	1	0	0	3	24	5	1	0	0	0	36	13	2	0	2	6	27	9	1	0	0	0
