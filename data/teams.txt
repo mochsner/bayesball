@@ -1,0 +1,30 @@
+1	Orioles
+2	Red Sox
+3	White Sox
+4	Indians
+5	Tigers
+6	Astros
+7	Royals
+8	Angels
+9	Twins
+10	Yankees
+11	As
+12	Mariners
+13	Rays
+14	Rangers
+15	Blue Jays
+16	Diamondbacks
+17	Braves
+18	Cubs
+17	Reds
+20	Rockies
+21	Dodgers
+22	Marlins
+23	Brewers
+24	Mets
+25	Phillies
+26	Pirates
+27	Padres
+28	Giants
+29	Cardinals
+30	Nationals
