@@ -1,0 +1,35 @@
+1 date
+4 visiting team
+5 visiting league
+6 visiting team game
+7 home team
+8 home league
+9 home game
+10 visiting score
+11 home score
+12 length outs
+17 park
+22 visiting at bats
+23 visiting hits
+24 visiting doubles
+25 visiting triples
+26 visiting homeruns
+27 visiting rbi
+44 visiting putouts
+45 visiting assists
+46 visiting errors
+47 visiting passed balls
+48 visiting double plays
+49 visiting triple plays
+50 home at bats
+51 home hits
+52 home doubles
+53 home triples
+54 home homeruns
+55 home rbi
+72 home putouts
+73 home assists
+74 home errors
+75 home passed balls
+76 home double plays
+77 home triple plays
