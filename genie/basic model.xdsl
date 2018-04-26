@@ -33,8 +33,8 @@
 			<resultingstates>State1</resultingstates>
 		</deterministic>
 		<equation id="Away_Batting_Stats">
-			<parents>Visitor_Hits Visitor_Homeruns Visitor_Doubles Visitor_At_Bats Visitor_Triples Visitor_RBI</parents>
-			<definition>Away_Batting_Stats=Visitor_Hits+Visitor_Homeruns+Visitor_Doubles+Visitor_At_Bats+Visitor_Triples+Visitor_RBI</definition>
+			<parents>Visitor_Hits Visitor_Homeruns Visitor_Doubles Visitor_Triples Visitor_RBI</parents>
+			<definition>Away_Batting_Stats=Visitor_Hits+Visitor_Homeruns+Visitor_Doubles+Visitor_Triples+Visitor_RBI</definition>
 			<discretization>
 				<interval label="State0" upper="0" />
 				<interval label="State1" upper="1" />
@@ -46,39 +46,44 @@
 			<parents>Away_Batting_Stats</parents>
 			<probabilities>0.5 0.5 0.5 0.5</probabilities>
 		</cpt>
-		<deterministic id="Home_Homeruns">
-			<state id="State0" />
-			<state id="State1" />
-			<resultingstates>State1</resultingstates>
-		</deterministic>
-		<deterministic id="Home_Hits">
-			<state id="State0" />
-			<state id="State1" />
-			<resultingstates>State1</resultingstates>
-		</deterministic>
-		<deterministic id="Home_Doubles">
-			<state id="State0" />
-			<state id="State1" />
-			<resultingstates>State1</resultingstates>
-		</deterministic>
-		<deterministic id="Home_Triples">
-			<state id="State0" />
-			<state id="State1" />
-			<resultingstates>State1</resultingstates>
-		</deterministic>
 		<deterministic id="Home_At_Bats">
 			<state id="State0" />
 			<state id="State1" />
 			<resultingstates>State1</resultingstates>
 		</deterministic>
-		<deterministic id="Home_RBI">
+		<cpt id="Home_Homeruns">
 			<state id="State0" />
 			<state id="State1" />
-			<resultingstates>State1</resultingstates>
-		</deterministic>
+			<parents>Home_At_Bats</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Home_Hits">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Home_At_Bats</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Home_Doubles">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Home_At_Bats</parents>
+			<probabilities>0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="Home_Triples">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Home_At_Bats</parents>
+			<probabilities>0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="Home_RBI">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Home_At_Bats</parents>
+			<probabilities>0 1 0 1</probabilities>
+		</cpt>
 		<equation id="Home_Batting_Stats">
-			<parents>Home_Homeruns Home_Hits Home_Doubles Home_Triples Home_At_Bats Home_RBI</parents>
-			<definition>Home_Batting_Stats=Home_Homeruns+Home_Hits+Home_Doubles+Home_Triples+Home_At_Bats+Home_RBI</definition>
+			<parents>Home_Homeruns Home_Hits Home_Doubles Home_Triples Home_RBI</parents>
+			<definition>Home_Batting_Stats=Home_Homeruns+Home_Hits+Home_Doubles+Home_Triples+Home_RBI</definition>
 			<discretization>
 				<interval label="State0" upper="0" />
 				<interval label="State1" upper="1" />
@@ -165,42 +170,42 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>409 327 484 362</position>
+				<position>320 300 395 335</position>
 			</node>
 			<node id="Home_Doubles">
 				<name>Home Doubles</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>508 325 606 358</position>
+				<position>440 300 554 339</position>
 			</node>
 			<node id="Home_Triples">
 				<name>Home Triples</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>635 327 728 355</position>
+				<position>600 300 715 335</position>
 			</node>
 			<node id="Home_Homeruns">
 				<name>Home Homeruns</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>400 384 510 409</position>
+				<position>440 380 572 412</position>
 			</node>
 			<node id="Home_At_Bats">
 				<name>Home At Bats</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>532 381 616 406</position>
+				<position>520 220 622 254</position>
 			</node>
 			<node id="Home_RBI">
 				<name>Home RBI</name>
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>633 379 717 404</position>
+				<position>600 380 709 411</position>
 			</node>
 			<node id="Visitor_Hits">
 				<name>Visitor Hits</name>
@@ -235,7 +240,7 @@
 				<interior color="e5f6f7" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>1176 362 1285 393</position>
+				<position>1150 232 1259 263</position>
 			</node>
 			<node id="Visitor_RBI">
 				<name>Visitor RBI</name>
